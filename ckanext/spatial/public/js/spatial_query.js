@@ -89,8 +89,8 @@ this.ckan.module('spatial-query', function ($, _) {
         element.on('click', '.btn-cancel', this._onCancel);
         element.modal({show: false});
 
-        element.find('.modal-title').text(this._('Please draw query extent in the map:'));
-        element.find('.btn-primary').text(this._('Apply'));
+        element.find('.modal-title').text(this._('请在地图上绘制查找范围:'));
+        element.find('.btn-primary').text(this._('搜索'));
         element.find('.btn-cancel').text(this._('Cancel'));
 
         var module = this;
